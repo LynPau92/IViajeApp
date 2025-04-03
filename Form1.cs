@@ -61,5 +61,57 @@ namespace PROYECTO_FINAL
             ReleaseCapture();
             SendMessage(this.Handle, 0x112, 0xf012, 0);
         }
+
+        private void AbrirFormEnPanel(object Formhijo)
+        {
+            if (this.panelContenedor.Controls.Count > 0)
+                this.panelContenedor.Controls.RemoveAt(0);
+            Form fh = Formhijo as Form;
+            fh.TopLevel = false;
+            fh.Dock = DockStyle.Fill;
+            this.panelContenedor.Controls.Add(fh);
+            this.panelContenedor.Tag = fh;
+            fh.Show();
+        }
+
+        private void PaqNacGrupo_Click(object sender, EventArgs e)
+        {
+            AbrirFormEnPanel(new PaqueteNacionalesGrupo());
+        }
+
+        private void PaqIntGrupo_Click(object sender, EventArgs e)
+        {
+            AbrirFormEnPanel(new PaqueteInternacionalGrupo());
+        }
+
+        private void TNPrivado_Click(object sender, EventArgs e)
+        {
+            AbrirFormEnPanel(new TourNacionalPrivado());
+        }
+
+        private void TIPrivado_Click(object sender, EventArgs e)
+        {
+            AbrirFormEnPanel(new TourInternacionalPrivado());
+        }
+
+        private void HyR_Click(object sender, EventArgs e)
+        {
+            AbrirFormEnPanel(new HotelesYResorts());
+        }
+
+        private void TipoViaje_Click(object sender, EventArgs e)
+        {
+            AbrirFormEnPanel(new TipoDeViaje());
+        }
+
+        private void OfeyDesc_Click(object sender, EventArgs e)
+        {
+            AbrirFormEnPanel(new OfertasyDescuentos());
+        }
+
+        private void Contacto_Click(object sender, EventArgs e)
+        {
+            AbrirFormEnPanel(new Contacto());
+        }
     }
 }
