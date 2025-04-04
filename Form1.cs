@@ -62,18 +62,18 @@ namespace PROYECTO_FINAL
             SendMessage(this.Handle, 0x112, 0xf012, 0);
         }
 
-        private void AbrirFormEnPanel(object Formhijo)
+        private void AbrirFormEnPanel(object formhija)
         {
             if (this.panelContenedor.Controls.Count > 0)
                 this.panelContenedor.Controls.RemoveAt(0);
-            Form fh = Formhijo as Form;
+            Form fh = formhija as Form;
             fh.TopLevel = false;
             fh.Dock = DockStyle.Fill;
             this.panelContenedor.Controls.Add(fh);
             this.panelContenedor.Tag = fh;
             fh.Show();
-        }
 
+        }
         private void PaqNacGrupo_Click(object sender, EventArgs e)
         {
             AbrirFormEnPanel(new PaqueteNacionalesGrupo());
@@ -112,6 +112,16 @@ namespace PROYECTO_FINAL
         private void Contacto_Click(object sender, EventArgs e)
         {
             AbrirFormEnPanel(new Contacto());
+        }
+
+        private void iViajeLogo_Click(object sender, EventArgs e)
+        {
+            AbrirFormEnPanel(new Inicio());
+        }
+
+        private void MenuVertical_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

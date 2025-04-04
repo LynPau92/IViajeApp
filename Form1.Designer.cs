@@ -30,6 +30,22 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.MenuVertical = new System.Windows.Forms.Panel();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.Contacto = new System.Windows.Forms.Button();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.OfeyDesc = new System.Windows.Forms.Button();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.TipoViaje = new System.Windows.Forms.Button();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.HyR = new System.Windows.Forms.Button();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.TIPrivado = new System.Windows.Forms.Button();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.TNPrivado = new System.Windows.Forms.Button();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.PaqIntGrupo = new System.Windows.Forms.Button();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.PaqNacGrupo = new System.Windows.Forms.Button();
             this.iViajeLogo = new System.Windows.Forms.PictureBox();
             this.BarraTitulo = new System.Windows.Forms.Panel();
             this.iconminimizar = new System.Windows.Forms.PictureBox();
@@ -38,24 +54,16 @@
             this.iconcerrar = new System.Windows.Forms.PictureBox();
             this.btnMenu = new System.Windows.Forms.PictureBox();
             this.panelContenedor = new System.Windows.Forms.Panel();
-            this.PaqNacGrupo = new System.Windows.Forms.Button();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.PaqIntGrupo = new System.Windows.Forms.Button();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.TIPrivado = new System.Windows.Forms.Button();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.TNPrivado = new System.Windows.Forms.Button();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.TipoViaje = new System.Windows.Forms.Button();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.HyR = new System.Windows.Forms.Button();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.Contacto = new System.Windows.Forms.Button();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.OfeyDesc = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.PanelInicio = new System.Windows.Forms.Button();
             this.MenuVertical.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.iViajeLogo)).BeginInit();
             this.BarraTitulo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.iconminimizar)).BeginInit();
@@ -64,14 +72,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.iconcerrar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMenu)).BeginInit();
             this.panelContenedor.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             this.SuspendLayout();
             // 
             // MenuVertical
@@ -99,6 +99,201 @@
             this.MenuVertical.Name = "MenuVertical";
             this.MenuVertical.Size = new System.Drawing.Size(252, 650);
             this.MenuVertical.TabIndex = 0;
+            this.MenuVertical.Paint += new System.Windows.Forms.PaintEventHandler(this.MenuVertical_Paint);
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
+            this.pictureBox8.Location = new System.Drawing.Point(-1, 573);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(65, 49);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox8.TabIndex = 16;
+            this.pictureBox8.TabStop = false;
+            // 
+            // Contacto
+            // 
+            this.Contacto.FlatAppearance.BorderSize = 0;
+            this.Contacto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Contacto.Font = new System.Drawing.Font("MS Reference Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Contacto.ForeColor = System.Drawing.Color.Teal;
+            this.Contacto.Location = new System.Drawing.Point(77, 573);
+            this.Contacto.Name = "Contacto";
+            this.Contacto.Size = new System.Drawing.Size(161, 49);
+            this.Contacto.TabIndex = 15;
+            this.Contacto.Text = "Contacto";
+            this.Contacto.UseVisualStyleBackColor = true;
+            this.Contacto.Click += new System.EventHandler(this.Contacto_Click);
+            // 
+            // pictureBox9
+            // 
+            this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
+            this.pictureBox9.Location = new System.Drawing.Point(-1, 506);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(65, 49);
+            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox9.TabIndex = 14;
+            this.pictureBox9.TabStop = false;
+            // 
+            // OfeyDesc
+            // 
+            this.OfeyDesc.BackColor = System.Drawing.SystemColors.Window;
+            this.OfeyDesc.FlatAppearance.BorderSize = 0;
+            this.OfeyDesc.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.OfeyDesc.Font = new System.Drawing.Font("MS Reference Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.OfeyDesc.ForeColor = System.Drawing.Color.Teal;
+            this.OfeyDesc.Location = new System.Drawing.Point(77, 506);
+            this.OfeyDesc.Name = "OfeyDesc";
+            this.OfeyDesc.Size = new System.Drawing.Size(161, 49);
+            this.OfeyDesc.TabIndex = 13;
+            this.OfeyDesc.Text = "Ofertas y descuentos";
+            this.OfeyDesc.UseVisualStyleBackColor = false;
+            this.OfeyDesc.Click += new System.EventHandler(this.OfeyDesc_Click);
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
+            this.pictureBox6.Location = new System.Drawing.Point(-2, 439);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(65, 49);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox6.TabIndex = 12;
+            this.pictureBox6.TabStop = false;
+            // 
+            // TipoViaje
+            // 
+            this.TipoViaje.FlatAppearance.BorderSize = 0;
+            this.TipoViaje.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.TipoViaje.Font = new System.Drawing.Font("MS Reference Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TipoViaje.ForeColor = System.Drawing.Color.Teal;
+            this.TipoViaje.Location = new System.Drawing.Point(76, 439);
+            this.TipoViaje.Name = "TipoViaje";
+            this.TipoViaje.Size = new System.Drawing.Size(161, 49);
+            this.TipoViaje.TabIndex = 11;
+            this.TipoViaje.Text = "Tipos de viajes";
+            this.TipoViaje.UseVisualStyleBackColor = true;
+            this.TipoViaje.Click += new System.EventHandler(this.TipoViaje_Click);
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
+            this.pictureBox7.Location = new System.Drawing.Point(-2, 372);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(65, 49);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox7.TabIndex = 10;
+            this.pictureBox7.TabStop = false;
+            // 
+            // HyR
+            // 
+            this.HyR.BackColor = System.Drawing.SystemColors.Window;
+            this.HyR.FlatAppearance.BorderSize = 0;
+            this.HyR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.HyR.Font = new System.Drawing.Font("MS Reference Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HyR.ForeColor = System.Drawing.Color.Teal;
+            this.HyR.Location = new System.Drawing.Point(76, 372);
+            this.HyR.Name = "HyR";
+            this.HyR.Size = new System.Drawing.Size(161, 49);
+            this.HyR.TabIndex = 9;
+            this.HyR.Text = "Hoteles y Resorts";
+            this.HyR.UseVisualStyleBackColor = false;
+            this.HyR.Click += new System.EventHandler(this.HyR_Click);
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
+            this.pictureBox4.Location = new System.Drawing.Point(-1, 305);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(65, 49);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 8;
+            this.pictureBox4.TabStop = false;
+            // 
+            // TIPrivado
+            // 
+            this.TIPrivado.FlatAppearance.BorderSize = 0;
+            this.TIPrivado.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.TIPrivado.Font = new System.Drawing.Font("MS Reference Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TIPrivado.ForeColor = System.Drawing.Color.Teal;
+            this.TIPrivado.Location = new System.Drawing.Point(77, 305);
+            this.TIPrivado.Name = "TIPrivado";
+            this.TIPrivado.Size = new System.Drawing.Size(161, 61);
+            this.TIPrivado.TabIndex = 7;
+            this.TIPrivado.Text = "Paquetes internacionales (privados) ";
+            this.TIPrivado.UseVisualStyleBackColor = true;
+            this.TIPrivado.Click += new System.EventHandler(this.TIPrivado_Click);
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
+            this.pictureBox5.Location = new System.Drawing.Point(-1, 238);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(65, 49);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox5.TabIndex = 6;
+            this.pictureBox5.TabStop = false;
+            // 
+            // TNPrivado
+            // 
+            this.TNPrivado.FlatAppearance.BorderSize = 0;
+            this.TNPrivado.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.TNPrivado.Font = new System.Drawing.Font("MS Reference Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TNPrivado.ForeColor = System.Drawing.Color.Teal;
+            this.TNPrivado.Location = new System.Drawing.Point(77, 238);
+            this.TNPrivado.Name = "TNPrivado";
+            this.TNPrivado.Size = new System.Drawing.Size(161, 49);
+            this.TNPrivado.TabIndex = 5;
+            this.TNPrivado.Text = "Tours nacionales (privados) ";
+            this.TNPrivado.UseVisualStyleBackColor = true;
+            this.TNPrivado.Click += new System.EventHandler(this.TNPrivado_Click);
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(-1, 171);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(65, 49);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 4;
+            this.pictureBox3.TabStop = false;
+            // 
+            // PaqIntGrupo
+            // 
+            this.PaqIntGrupo.FlatAppearance.BorderSize = 0;
+            this.PaqIntGrupo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.PaqIntGrupo.Font = new System.Drawing.Font("MS Reference Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PaqIntGrupo.ForeColor = System.Drawing.Color.Teal;
+            this.PaqIntGrupo.Location = new System.Drawing.Point(77, 171);
+            this.PaqIntGrupo.Name = "PaqIntGrupo";
+            this.PaqIntGrupo.Size = new System.Drawing.Size(161, 61);
+            this.PaqIntGrupo.TabIndex = 3;
+            this.PaqIntGrupo.Text = "Paquetes internacionales (grupos) ";
+            this.PaqIntGrupo.UseVisualStyleBackColor = true;
+            this.PaqIntGrupo.Click += new System.EventHandler(this.PaqIntGrupo_Click);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(-1, 104);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(65, 49);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 2;
+            this.pictureBox2.TabStop = false;
+            // 
+            // PaqNacGrupo
+            // 
+            this.PaqNacGrupo.FlatAppearance.BorderSize = 0;
+            this.PaqNacGrupo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.PaqNacGrupo.Font = new System.Drawing.Font("MS Reference Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PaqNacGrupo.ForeColor = System.Drawing.Color.Teal;
+            this.PaqNacGrupo.Location = new System.Drawing.Point(72, 104);
+            this.PaqNacGrupo.Name = "PaqNacGrupo";
+            this.PaqNacGrupo.Size = new System.Drawing.Size(166, 49);
+            this.PaqNacGrupo.TabIndex = 1;
+            this.PaqNacGrupo.Text = "Tours nacionales (grupos) ";
+            this.PaqNacGrupo.UseVisualStyleBackColor = true;
+            this.PaqNacGrupo.Click += new System.EventHandler(this.PaqNacGrupo_Click);
             // 
             // iViajeLogo
             // 
@@ -106,11 +301,12 @@
             this.iViajeLogo.Image = ((System.Drawing.Image)(resources.GetObject("iViajeLogo.Image")));
             this.iViajeLogo.Location = new System.Drawing.Point(-1, 0);
             this.iViajeLogo.Name = "iViajeLogo";
-            this.iViajeLogo.Size = new System.Drawing.Size(253, 104);
+            this.iViajeLogo.Size = new System.Drawing.Size(253, 87);
             this.iViajeLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.iViajeLogo.TabIndex = 0;
             this.iViajeLogo.TabStop = false;
             this.iViajeLogo.BackColorChanged += new System.EventHandler(this.btnMenu_Click);
+            this.iViajeLogo.Click += new System.EventHandler(this.iViajeLogo_Click);
             // 
             // BarraTitulo
             // 
@@ -197,221 +393,30 @@
             // panelContenedor
             // 
             this.panelContenedor.BackColor = System.Drawing.Color.Transparent;
-            this.panelContenedor.Controls.Add(this.button1);
+            this.panelContenedor.Controls.Add(this.PanelInicio);
             this.panelContenedor.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelContenedor.Location = new System.Drawing.Point(252, 50);
             this.panelContenedor.Name = "panelContenedor";
             this.panelContenedor.Size = new System.Drawing.Size(1048, 600);
             this.panelContenedor.TabIndex = 2;
             // 
-            // PaqNacGrupo
+            // PanelInicio
             // 
-            this.PaqNacGrupo.FlatAppearance.BorderSize = 0;
-            this.PaqNacGrupo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.PaqNacGrupo.Font = new System.Drawing.Font("MS Reference Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PaqNacGrupo.ForeColor = System.Drawing.Color.Teal;
-            this.PaqNacGrupo.Location = new System.Drawing.Point(85, 110);
-            this.PaqNacGrupo.Name = "PaqNacGrupo";
-            this.PaqNacGrupo.Size = new System.Drawing.Size(161, 49);
-            this.PaqNacGrupo.TabIndex = 1;
-            this.PaqNacGrupo.Text = "Tours nacionales (grupos) ";
-            this.PaqNacGrupo.UseVisualStyleBackColor = true;
-            this.PaqNacGrupo.Click += new System.EventHandler(this.PaqNacGrupo_Click);
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(12, 110);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(65, 49);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 2;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(12, 177);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(65, 49);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 4;
-            this.pictureBox3.TabStop = false;
-            // 
-            // PaqIntGrupo
-            // 
-            this.PaqIntGrupo.FlatAppearance.BorderSize = 0;
-            this.PaqIntGrupo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.PaqIntGrupo.Font = new System.Drawing.Font("MS Reference Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PaqIntGrupo.ForeColor = System.Drawing.Color.Teal;
-            this.PaqIntGrupo.Location = new System.Drawing.Point(90, 177);
-            this.PaqIntGrupo.Name = "PaqIntGrupo";
-            this.PaqIntGrupo.Size = new System.Drawing.Size(161, 61);
-            this.PaqIntGrupo.TabIndex = 3;
-            this.PaqIntGrupo.Text = "Paquetes internacionales (grupos) ";
-            this.PaqIntGrupo.UseVisualStyleBackColor = true;
-            this.PaqIntGrupo.Click += new System.EventHandler(this.PaqIntGrupo_Click);
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(12, 311);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(65, 49);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 8;
-            this.pictureBox4.TabStop = false;
-            // 
-            // TIPrivado
-            // 
-            this.TIPrivado.FlatAppearance.BorderSize = 0;
-            this.TIPrivado.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.TIPrivado.Font = new System.Drawing.Font("MS Reference Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TIPrivado.ForeColor = System.Drawing.Color.Teal;
-            this.TIPrivado.Location = new System.Drawing.Point(90, 311);
-            this.TIPrivado.Name = "TIPrivado";
-            this.TIPrivado.Size = new System.Drawing.Size(161, 61);
-            this.TIPrivado.TabIndex = 7;
-            this.TIPrivado.Text = "Paquetes internacionales (privados) ";
-            this.TIPrivado.UseVisualStyleBackColor = true;
-            this.TIPrivado.Click += new System.EventHandler(this.TIPrivado_Click);
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(12, 244);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(65, 49);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox5.TabIndex = 6;
-            this.pictureBox5.TabStop = false;
-            // 
-            // TNPrivado
-            // 
-            this.TNPrivado.FlatAppearance.BorderSize = 0;
-            this.TNPrivado.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.TNPrivado.Font = new System.Drawing.Font("MS Reference Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TNPrivado.ForeColor = System.Drawing.Color.Teal;
-            this.TNPrivado.Location = new System.Drawing.Point(90, 244);
-            this.TNPrivado.Name = "TNPrivado";
-            this.TNPrivado.Size = new System.Drawing.Size(161, 49);
-            this.TNPrivado.TabIndex = 5;
-            this.TNPrivado.Text = "Tours nacionales (privados) ";
-            this.TNPrivado.UseVisualStyleBackColor = true;
-            this.TNPrivado.Click += new System.EventHandler(this.TNPrivado_Click);
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(11, 445);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(65, 49);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox6.TabIndex = 12;
-            this.pictureBox6.TabStop = false;
-            // 
-            // TipoViaje
-            // 
-            this.TipoViaje.FlatAppearance.BorderSize = 0;
-            this.TipoViaje.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.TipoViaje.Font = new System.Drawing.Font("MS Reference Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TipoViaje.ForeColor = System.Drawing.Color.Teal;
-            this.TipoViaje.Location = new System.Drawing.Point(89, 445);
-            this.TipoViaje.Name = "TipoViaje";
-            this.TipoViaje.Size = new System.Drawing.Size(161, 49);
-            this.TipoViaje.TabIndex = 11;
-            this.TipoViaje.Text = "Tipos de viajes";
-            this.TipoViaje.UseVisualStyleBackColor = true;
-            this.TipoViaje.Click += new System.EventHandler(this.TipoViaje_Click);
-            // 
-            // pictureBox7
-            // 
-            this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
-            this.pictureBox7.Location = new System.Drawing.Point(11, 378);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(65, 49);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox7.TabIndex = 10;
-            this.pictureBox7.TabStop = false;
-            // 
-            // HyR
-            // 
-            this.HyR.BackColor = System.Drawing.SystemColors.Window;
-            this.HyR.FlatAppearance.BorderSize = 0;
-            this.HyR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.HyR.Font = new System.Drawing.Font("MS Reference Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.HyR.ForeColor = System.Drawing.Color.Teal;
-            this.HyR.Location = new System.Drawing.Point(89, 378);
-            this.HyR.Name = "HyR";
-            this.HyR.Size = new System.Drawing.Size(161, 49);
-            this.HyR.TabIndex = 9;
-            this.HyR.Text = "Hoteles y Resorts";
-            this.HyR.UseVisualStyleBackColor = false;
-            this.HyR.Click += new System.EventHandler(this.HyR_Click);
-            // 
-            // pictureBox8
-            // 
-            this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
-            this.pictureBox8.Location = new System.Drawing.Point(12, 579);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(65, 49);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox8.TabIndex = 16;
-            this.pictureBox8.TabStop = false;
-            // 
-            // Contacto
-            // 
-            this.Contacto.FlatAppearance.BorderSize = 0;
-            this.Contacto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Contacto.Font = new System.Drawing.Font("MS Reference Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Contacto.ForeColor = System.Drawing.Color.Teal;
-            this.Contacto.Location = new System.Drawing.Point(90, 579);
-            this.Contacto.Name = "Contacto";
-            this.Contacto.Size = new System.Drawing.Size(161, 49);
-            this.Contacto.TabIndex = 15;
-            this.Contacto.Text = "Contacto";
-            this.Contacto.UseVisualStyleBackColor = true;
-            this.Contacto.Click += new System.EventHandler(this.Contacto_Click);
-            // 
-            // pictureBox9
-            // 
-            this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
-            this.pictureBox9.Location = new System.Drawing.Point(12, 512);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(65, 49);
-            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox9.TabIndex = 14;
-            this.pictureBox9.TabStop = false;
-            // 
-            // OfeyDesc
-            // 
-            this.OfeyDesc.BackColor = System.Drawing.SystemColors.Window;
-            this.OfeyDesc.FlatAppearance.BorderSize = 0;
-            this.OfeyDesc.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.OfeyDesc.Font = new System.Drawing.Font("MS Reference Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.OfeyDesc.ForeColor = System.Drawing.Color.Teal;
-            this.OfeyDesc.Location = new System.Drawing.Point(90, 512);
-            this.OfeyDesc.Name = "OfeyDesc";
-            this.OfeyDesc.Size = new System.Drawing.Size(161, 49);
-            this.OfeyDesc.TabIndex = 13;
-            this.OfeyDesc.Text = "Ofertas y descuentos";
-            this.OfeyDesc.UseVisualStyleBackColor = false;
-            this.OfeyDesc.Click += new System.EventHandler(this.OfeyDesc_Click);
-            // 
-            // button1
-            // 
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Ananda", 74.99999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.Transparent;
-            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.Location = new System.Drawing.Point(0, 0);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(1045, 600);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "iViaje";
-            this.button1.UseCompatibleTextRendering = true;
-            this.button1.UseVisualStyleBackColor = true;
+            this.PanelInicio.BackColor = System.Drawing.Color.Transparent;
+            this.PanelInicio.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.PanelInicio.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.PanelInicio.FlatAppearance.BorderSize = 0;
+            this.PanelInicio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.PanelInicio.Font = new System.Drawing.Font("Ananda", 90F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.PanelInicio.ForeColor = System.Drawing.Color.Transparent;
+            this.PanelInicio.Image = ((System.Drawing.Image)(resources.GetObject("PanelInicio.Image")));
+            this.PanelInicio.Location = new System.Drawing.Point(0, 0);
+            this.PanelInicio.Name = "PanelInicio";
+            this.PanelInicio.Size = new System.Drawing.Size(1048, 600);
+            this.PanelInicio.TabIndex = 3;
+            this.PanelInicio.Text = "iViaje";
+            this.PanelInicio.UseCompatibleTextRendering = true;
+            this.PanelInicio.UseVisualStyleBackColor = false;
             // 
             // Form1
             // 
@@ -425,6 +430,14 @@
             this.Name = "Form1";
             this.Text = "Form1";
             this.MenuVertical.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.iViajeLogo)).EndInit();
             this.BarraTitulo.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.iconminimizar)).EndInit();
@@ -433,14 +446,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.iconcerrar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMenu)).EndInit();
             this.panelContenedor.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -472,7 +477,7 @@
         private System.Windows.Forms.Button Contacto;
         private System.Windows.Forms.PictureBox pictureBox9;
         private System.Windows.Forms.Button OfeyDesc;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button PanelInicio;
     }
 }
 

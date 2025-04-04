@@ -16,5 +16,10 @@ namespace PROYECTO_FINAL
         {
             InitializeComponent();
         }
+
+        private void iconcerrar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

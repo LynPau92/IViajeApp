@@ -1,0 +1,19 @@
+C:\Users\Karina\Source\Repos\IViajeApp\obj\Debug\PROYECTO FINAL.csproj.AssemblyReference.cache
+C:\Users\Karina\Source\Repos\IViajeApp\obj\Debug\PROYECTO_FINAL.Contacto.resources
+C:\Users\Karina\Source\Repos\IViajeApp\obj\Debug\PROYECTO_FINAL.Form1.resources
+C:\Users\Karina\Source\Repos\IViajeApp\obj\Debug\PROYECTO_FINAL.HotelesYResorts.resources
+C:\Users\Karina\Source\Repos\IViajeApp\obj\Debug\PROYECTO_FINAL.OfertasyDescuentos.resources
+C:\Users\Karina\Source\Repos\IViajeApp\obj\Debug\PROYECTO_FINAL.PaqueteInternacionalGrupo.resources
+C:\Users\Karina\Source\Repos\IViajeApp\obj\Debug\PROYECTO_FINAL.PaqueteNacionalesGrupo.resources
+C:\Users\Karina\Source\Repos\IViajeApp\obj\Debug\PROYECTO_FINAL.TipoDeViaje.resources
+C:\Users\Karina\Source\Repos\IViajeApp\obj\Debug\PROYECTO_FINAL.TourInternacionalPrivado.resources
+C:\Users\Karina\Source\Repos\IViajeApp\obj\Debug\PROYECTO_FINAL.TourNacionalPrivado.resources
+C:\Users\Karina\Source\Repos\IViajeApp\obj\Debug\PROYECTO FINAL.csproj.GenerateResource.cache
+C:\Users\Karina\Source\Repos\IViajeApp\bin\Debug\PROYECTO FINAL.exe.config
+C:\Users\Karina\Source\Repos\IViajeApp\bin\Debug\PROYECTO FINAL.exe
+C:\Users\Karina\Source\Repos\IViajeApp\bin\Debug\PROYECTO FINAL.pdb
+C:\Users\Karina\Source\Repos\IViajeApp\obj\Debug\PROYECTO_FINAL.Properties.Resources.resources
+C:\Users\Karina\Source\Repos\IViajeApp\obj\Debug\PROYECTO FINAL.csproj.CoreCompileInputs.cache
+C:\Users\Karina\Source\Repos\IViajeApp\obj\Debug\PROYECTO FINAL.exe
+C:\Users\Karina\Source\Repos\IViajeApp\obj\Debug\PROYECTO FINAL.pdb
+C:\Users\Karina\Source\Repos\IViajeApp\obj\Debug\PROYECTO_FINAL.Inicio.resources
