@@ -64,6 +64,12 @@
     <Compile Include="HotelesYResorts.Designer.cs">
       <DependentUpon>HotelesYResorts.cs</DependentUpon>
     </Compile>
+    <Compile Include="Inicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inicio.Designer.cs">
+      <DependentUpon>Inicio.cs</DependentUpon>
+    </Compile>
     <Compile Include="OfertasyDescuentos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -110,6 +116,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="HotelesYResorts.resx">
       <DependentUpon>HotelesYResorts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inicio.resx">
+      <DependentUpon>Inicio.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="OfertasyDescuentos.resx">
       <DependentUpon>OfertasyDescuentos.cs</DependentUpon>

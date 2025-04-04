@@ -33,9 +33,9 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.OfeyDesc = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
+            this.btncerrar = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.btncerrar)).BeginInit();
             this.SuspendLayout();
             // 
             // Cantidad
@@ -82,16 +82,6 @@
             this.button2.Text = "Reservar";
             this.button2.UseVisualStyleBackColor = true;
             // 
-            // pictureBox9
-            // 
-            this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
-            this.pictureBox9.Location = new System.Drawing.Point(1, -1);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(65, 49);
-            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox9.TabIndex = 34;
-            this.pictureBox9.TabStop = false;
-            // 
             // OfeyDesc
             // 
             this.OfeyDesc.BackColor = System.Drawing.SystemColors.Window;
@@ -99,12 +89,26 @@
             this.OfeyDesc.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.OfeyDesc.Font = new System.Drawing.Font("MS Reference Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.OfeyDesc.ForeColor = System.Drawing.Color.Teal;
-            this.OfeyDesc.Location = new System.Drawing.Point(79, -1);
+            this.OfeyDesc.Location = new System.Drawing.Point(313, 3);
             this.OfeyDesc.Name = "OfeyDesc";
             this.OfeyDesc.Size = new System.Drawing.Size(161, 49);
             this.OfeyDesc.TabIndex = 33;
             this.OfeyDesc.Text = "Ofertas y descuentos";
             this.OfeyDesc.UseVisualStyleBackColor = false;
+            // 
+            // btncerrar
+            // 
+            this.btncerrar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btncerrar.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.btncerrar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btncerrar.Image = ((System.Drawing.Image)(resources.GetObject("btncerrar.Image")));
+            this.btncerrar.Location = new System.Drawing.Point(779, 3);
+            this.btncerrar.Name = "btncerrar";
+            this.btncerrar.Size = new System.Drawing.Size(18, 18);
+            this.btncerrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btncerrar.TabIndex = 34;
+            this.btncerrar.TabStop = false;
+            this.btncerrar.Click += new System.EventHandler(this.btncerrar_Click);
             // 
             // OfertasyDescuentos
             // 
@@ -112,7 +116,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.pictureBox9);
+            this.Controls.Add(this.btncerrar);
             this.Controls.Add(this.OfeyDesc);
             this.Controls.Add(this.Cantidad);
             this.Controls.Add(this.textBox1);
@@ -121,7 +125,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "OfertasyDescuentos";
             this.Text = "OfertasyDescuentos";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btncerrar)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -132,7 +136,7 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.PictureBox pictureBox9;
         private System.Windows.Forms.Button OfeyDesc;
+        private System.Windows.Forms.PictureBox btncerrar;
     }
 }

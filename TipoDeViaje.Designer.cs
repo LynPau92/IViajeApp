@@ -29,24 +29,14 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TipoDeViaje));
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.TipoViaje = new System.Windows.Forms.Button();
             this.Cantidad = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            this.btncerrar = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.btncerrar)).BeginInit();
             this.SuspendLayout();
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(1, 1);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(65, 49);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox6.TabIndex = 14;
-            this.pictureBox6.TabStop = false;
             // 
             // TipoViaje
             // 
@@ -54,7 +44,7 @@
             this.TipoViaje.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.TipoViaje.Font = new System.Drawing.Font("MS Reference Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TipoViaje.ForeColor = System.Drawing.Color.Teal;
-            this.TipoViaje.Location = new System.Drawing.Point(79, 1);
+            this.TipoViaje.Location = new System.Drawing.Point(316, 12);
             this.TipoViaje.Name = "TipoViaje";
             this.TipoViaje.Size = new System.Drawing.Size(161, 49);
             this.TipoViaje.TabIndex = 13;
@@ -105,34 +95,47 @@
             this.button2.Text = "Reservar";
             this.button2.UseVisualStyleBackColor = true;
             // 
+            // btncerrar
+            // 
+            this.btncerrar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btncerrar.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.btncerrar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btncerrar.Image = ((System.Drawing.Image)(resources.GetObject("btncerrar.Image")));
+            this.btncerrar.Location = new System.Drawing.Point(770, 2);
+            this.btncerrar.Name = "btncerrar";
+            this.btncerrar.Size = new System.Drawing.Size(18, 18);
+            this.btncerrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btncerrar.TabIndex = 29;
+            this.btncerrar.TabStop = false;
+            this.btncerrar.Click += new System.EventHandler(this.btncerrar_Click);
+            // 
             // TipoDeViaje
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btncerrar);
             this.Controls.Add(this.Cantidad);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.pictureBox6);
             this.Controls.Add(this.TipoViaje);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "TipoDeViaje";
             this.Text = "TipoDeViaje";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btncerrar)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.Button TipoViaje;
         private System.Windows.Forms.Label Cantidad;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.PictureBox btncerrar;
     }
 }

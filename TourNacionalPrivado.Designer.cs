@@ -33,9 +33,9 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.TNPrivado = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            this.btncerrar = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.btncerrar)).BeginInit();
             this.SuspendLayout();
             // 
             // Cantidad
@@ -82,28 +82,32 @@
             this.button2.Text = "Reservar";
             this.button2.UseVisualStyleBackColor = true;
             // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(2, 7);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(65, 49);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox5.TabIndex = 25;
-            this.pictureBox5.TabStop = false;
-            // 
             // TNPrivado
             // 
             this.TNPrivado.FlatAppearance.BorderSize = 0;
             this.TNPrivado.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.TNPrivado.Font = new System.Drawing.Font("MS Reference Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TNPrivado.ForeColor = System.Drawing.Color.Teal;
-            this.TNPrivado.Location = new System.Drawing.Point(80, 7);
+            this.TNPrivado.Location = new System.Drawing.Point(303, 12);
             this.TNPrivado.Name = "TNPrivado";
             this.TNPrivado.Size = new System.Drawing.Size(161, 49);
             this.TNPrivado.TabIndex = 24;
             this.TNPrivado.Text = "Tours nacionales (privados) ";
             this.TNPrivado.UseVisualStyleBackColor = true;
+            // 
+            // btncerrar
+            // 
+            this.btncerrar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btncerrar.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.btncerrar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btncerrar.Image = ((System.Drawing.Image)(resources.GetObject("btncerrar.Image")));
+            this.btncerrar.Location = new System.Drawing.Point(770, 12);
+            this.btncerrar.Name = "btncerrar";
+            this.btncerrar.Size = new System.Drawing.Size(18, 18);
+            this.btncerrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btncerrar.TabIndex = 25;
+            this.btncerrar.TabStop = false;
+            this.btncerrar.Click += new System.EventHandler(this.btncerrar_Click);
             // 
             // TourNacionalPrivado
             // 
@@ -111,7 +115,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.pictureBox5);
+            this.Controls.Add(this.btncerrar);
             this.Controls.Add(this.TNPrivado);
             this.Controls.Add(this.Cantidad);
             this.Controls.Add(this.textBox1);
@@ -120,7 +124,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "TourNacionalPrivado";
             this.Text = "TourNacionalPrivado";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btncerrar)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -131,7 +135,7 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.Button TNPrivado;
+        private System.Windows.Forms.PictureBox btncerrar;
     }
 }

@@ -33,9 +33,9 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.Contactoss = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            this.btncerrar = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.btncerrar)).BeginInit();
             this.SuspendLayout();
             // 
             // Cantidad
@@ -82,28 +82,32 @@
             this.button2.Text = "Reservar";
             this.button2.UseVisualStyleBackColor = true;
             // 
-            // pictureBox8
-            // 
-            this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
-            this.pictureBox8.Location = new System.Drawing.Point(2, 7);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(65, 49);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox8.TabIndex = 35;
-            this.pictureBox8.TabStop = false;
-            // 
             // Contactoss
             // 
             this.Contactoss.FlatAppearance.BorderSize = 0;
             this.Contactoss.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Contactoss.Font = new System.Drawing.Font("MS Reference Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Contactoss.ForeColor = System.Drawing.Color.Teal;
-            this.Contactoss.Location = new System.Drawing.Point(80, 7);
+            this.Contactoss.Location = new System.Drawing.Point(332, 12);
             this.Contactoss.Name = "Contactoss";
             this.Contactoss.Size = new System.Drawing.Size(161, 49);
             this.Contactoss.TabIndex = 34;
             this.Contactoss.Text = "Contacto";
             this.Contactoss.UseVisualStyleBackColor = true;
+            // 
+            // btncerrar
+            // 
+            this.btncerrar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btncerrar.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.btncerrar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btncerrar.Image = ((System.Drawing.Image)(resources.GetObject("btncerrar.Image")));
+            this.btncerrar.Location = new System.Drawing.Point(770, 2);
+            this.btncerrar.Name = "btncerrar";
+            this.btncerrar.Size = new System.Drawing.Size(18, 18);
+            this.btncerrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btncerrar.TabIndex = 35;
+            this.btncerrar.TabStop = false;
+            this.btncerrar.Click += new System.EventHandler(this.btncerrar_Click);
             // 
             // Contacto
             // 
@@ -111,7 +115,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.pictureBox8);
+            this.Controls.Add(this.btncerrar);
             this.Controls.Add(this.Contactoss);
             this.Controls.Add(this.Cantidad);
             this.Controls.Add(this.textBox1);
@@ -120,7 +124,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Contacto";
             this.Text = "Contacto";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btncerrar)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -131,7 +135,7 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.PictureBox pictureBox8;
         private System.Windows.Forms.Button Contactoss;
+        private System.Windows.Forms.PictureBox btncerrar;
     }
 }
