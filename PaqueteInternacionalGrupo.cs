@@ -21,6 +21,5 @@ namespace PROYECTO_FINAL
         {
             this.Close();
         }
- 
     }
 }

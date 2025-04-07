@@ -22,3 +22,4 @@ C:\Users\Karina\Source\Repos\IViajeApp\obj\Debug\PROYECTO_FINAL.Información.res
 C:\Users\Karina\Source\Repos\IViajeApp\obj\Debug\PROYECTO_FINAL.Ofertas.resources
 C:\Users\Karina\Source\Repos\IViajeApp\obj\Debug\PROYECTO_FINAL.Paquetes.resources
 C:\Users\Karina\Source\Repos\IViajeApp\obj\Debug\PROYECTO_FINAL.Admin.resources
+C:\Users\Karina\Source\Repos\IViajeApp\obj\Debug\PROYECTO_FINAL.ReservasClientes.resources
