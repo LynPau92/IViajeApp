@@ -17,3 +17,8 @@ C:\Users\Karina\Source\Repos\IViajeApp\obj\Debug\PROYECTO FINAL.csproj.CoreCompi
 C:\Users\Karina\Source\Repos\IViajeApp\obj\Debug\PROYECTO FINAL.exe
 C:\Users\Karina\Source\Repos\IViajeApp\obj\Debug\PROYECTO FINAL.pdb
 C:\Users\Karina\Source\Repos\IViajeApp\obj\Debug\PROYECTO_FINAL.Inicio.resources
+C:\Users\Karina\Source\Repos\IViajeApp\obj\Debug\PROYECTO_FINAL.ReservasPaqInt.resources
+C:\Users\Karina\Source\Repos\IViajeApp\obj\Debug\PROYECTO_FINAL.Información.resources
+C:\Users\Karina\Source\Repos\IViajeApp\obj\Debug\PROYECTO_FINAL.Ofertas.resources
+C:\Users\Karina\Source\Repos\IViajeApp\obj\Debug\PROYECTO_FINAL.Paquetes.resources
+C:\Users\Karina\Source\Repos\IViajeApp\obj\Debug\PROYECTO_FINAL.Admin.resources

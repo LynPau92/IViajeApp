@@ -22,15 +22,7 @@ namespace PROYECTO_FINAL
         private extern static void ReleaseCapture();
         [DllImport("user32.DLL", EntryPoint = "SendMessage")]
         private extern static void SendMessage(System.IntPtr hwnd, int wmsg, int wparam, int lparam);
-        private void btnMenu_Click(object sender, EventArgs e)
-        {
-            if (MenuVertical.Width == 250)
-            {
-                MenuVertical.Width = 92;
-            }
-            else
-                MenuVertical.Width = 250;
-        }
+        
 
         private void iconcerrar_Click(object sender, EventArgs e)
         {
@@ -74,54 +66,30 @@ namespace PROYECTO_FINAL
             fh.Show();
 
         }
-        private void PaqNacGrupo_Click(object sender, EventArgs e)
+
+        private void Informacion_Click(object sender, EventArgs e)
         {
-            AbrirFormEnPanel(new PaqueteNacionalesGrupo());
+            AbrirFormEnPanel(new Información());
         }
 
-        private void PaqIntGrupo_Click(object sender, EventArgs e)
+        private void Paquetes_Click(object sender, EventArgs e)
         {
-            AbrirFormEnPanel(new PaqueteInternacionalGrupo());
+            AbrirFormEnPanel(new Paquetes());
         }
 
-        private void TNPrivado_Click(object sender, EventArgs e)
+        private void Ofertas_Click(object sender, EventArgs e)
         {
-            AbrirFormEnPanel(new TourNacionalPrivado());
+            AbrirFormEnPanel(new Ofertas());
         }
 
-        private void TIPrivado_Click(object sender, EventArgs e)
-        {
-            AbrirFormEnPanel(new TourInternacionalPrivado());
-        }
-
-        private void HyR_Click(object sender, EventArgs e)
-        {
-            AbrirFormEnPanel(new HotelesYResorts());
-        }
-
-        private void TipoViaje_Click(object sender, EventArgs e)
-        {
-            AbrirFormEnPanel(new TipoDeViaje());
-        }
-
-        private void OfeyDesc_Click(object sender, EventArgs e)
-        {
-            AbrirFormEnPanel(new OfertasyDescuentos());
-        }
-
-        private void Contacto_Click(object sender, EventArgs e)
-        {
-            AbrirFormEnPanel(new Contacto());
-        }
-
-        private void iViajeLogo_Click(object sender, EventArgs e)
+        private void Inicio_Click(object sender, EventArgs e)
         {
             AbrirFormEnPanel(new Inicio());
         }
 
-        private void MenuVertical_Paint(object sender, PaintEventArgs e)
+        private void Sistema_Click(object sender, EventArgs e)
         {
-
+            AbrirFormEnPanel(new Admin());
         }
     }
 }
