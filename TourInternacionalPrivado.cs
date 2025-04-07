@@ -21,5 +21,26 @@ namespace PROYECTO_FINAL
         {
             this.Close();
         }
+
+        private void AbrirFormEnPanel(object formhija)
+        {
+            if (this.panelContenedor.Controls.Count > 0)
+                this.panelContenedor.Controls.RemoveAt(0);
+            Form fh = formhija as Form;
+            fh.TopLevel = false;
+            fh.Dock = DockStyle.Fill;
+            this.panelContenedor.Controls.Add(fh);
+            this.panelContenedor.Tag = fh;
+            fh.Show();
+
+        }
+
+ 
+        private void R2_Click(object sender, EventArgs e)
+        {
+            ReservasClientes formularioReservar = new ReservasClientes();
+            formularioReservar.Show();
+            this.Close();
+        }
     }
 }
