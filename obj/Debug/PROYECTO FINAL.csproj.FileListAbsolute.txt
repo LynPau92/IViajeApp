@@ -23,3 +23,28 @@ C:\Users\Karina\Source\Repos\IViajeApp\obj\Debug\PROYECTO_FINAL.Ofertas.resource
 C:\Users\Karina\Source\Repos\IViajeApp\obj\Debug\PROYECTO_FINAL.Paquetes.resources
 C:\Users\Karina\Source\Repos\IViajeApp\obj\Debug\PROYECTO_FINAL.Admin.resources
 C:\Users\Karina\Source\Repos\IViajeApp\obj\Debug\PROYECTO_FINAL.ReservasClientes.resources
+C:\Users\Unknown\Documents\Universidad\Cuarto Cuatrimestre\Programacion De Aplicaciones\Final Project\bin\Debug\PROYECTO FINAL.exe.config
+C:\Users\Unknown\Documents\Universidad\Cuarto Cuatrimestre\Programacion De Aplicaciones\Final Project\bin\Debug\PROYECTO FINAL.exe
+C:\Users\Unknown\Documents\Universidad\Cuarto Cuatrimestre\Programacion De Aplicaciones\Final Project\bin\Debug\PROYECTO FINAL.pdb
+C:\Users\Unknown\Documents\Universidad\Cuarto Cuatrimestre\Programacion De Aplicaciones\Final Project\obj\Debug\PROYECTO FINAL.csproj.AssemblyReference.cache
+C:\Users\Unknown\Documents\Universidad\Cuarto Cuatrimestre\Programacion De Aplicaciones\Final Project\obj\Debug\PROYECTO_FINAL.Admin.resources
+C:\Users\Unknown\Documents\Universidad\Cuarto Cuatrimestre\Programacion De Aplicaciones\Final Project\obj\Debug\PROYECTO_FINAL.Contacto.resources
+C:\Users\Unknown\Documents\Universidad\Cuarto Cuatrimestre\Programacion De Aplicaciones\Final Project\obj\Debug\PROYECTO_FINAL.Form1.resources
+C:\Users\Unknown\Documents\Universidad\Cuarto Cuatrimestre\Programacion De Aplicaciones\Final Project\obj\Debug\PROYECTO_FINAL.HotelesYResorts.resources
+C:\Users\Unknown\Documents\Universidad\Cuarto Cuatrimestre\Programacion De Aplicaciones\Final Project\obj\Debug\PROYECTO_FINAL.Información.resources
+C:\Users\Unknown\Documents\Universidad\Cuarto Cuatrimestre\Programacion De Aplicaciones\Final Project\obj\Debug\PROYECTO_FINAL.Inicio.resources
+C:\Users\Unknown\Documents\Universidad\Cuarto Cuatrimestre\Programacion De Aplicaciones\Final Project\obj\Debug\PROYECTO_FINAL.Ofertas.resources
+C:\Users\Unknown\Documents\Universidad\Cuarto Cuatrimestre\Programacion De Aplicaciones\Final Project\obj\Debug\PROYECTO_FINAL.OfertasyDescuentos.resources
+C:\Users\Unknown\Documents\Universidad\Cuarto Cuatrimestre\Programacion De Aplicaciones\Final Project\obj\Debug\PROYECTO_FINAL.PaqueteInternacionalGrupo.resources
+C:\Users\Unknown\Documents\Universidad\Cuarto Cuatrimestre\Programacion De Aplicaciones\Final Project\obj\Debug\PROYECTO_FINAL.PaqueteNacionalesGrupo.resources
+C:\Users\Unknown\Documents\Universidad\Cuarto Cuatrimestre\Programacion De Aplicaciones\Final Project\obj\Debug\PROYECTO_FINAL.Paquetes.resources
+C:\Users\Unknown\Documents\Universidad\Cuarto Cuatrimestre\Programacion De Aplicaciones\Final Project\obj\Debug\PROYECTO_FINAL.Properties.Resources.resources
+C:\Users\Unknown\Documents\Universidad\Cuarto Cuatrimestre\Programacion De Aplicaciones\Final Project\obj\Debug\PROYECTO_FINAL.ReservasClientes.resources
+C:\Users\Unknown\Documents\Universidad\Cuarto Cuatrimestre\Programacion De Aplicaciones\Final Project\obj\Debug\PROYECTO_FINAL.ReservasPaqInt.resources
+C:\Users\Unknown\Documents\Universidad\Cuarto Cuatrimestre\Programacion De Aplicaciones\Final Project\obj\Debug\PROYECTO_FINAL.TipoDeViaje.resources
+C:\Users\Unknown\Documents\Universidad\Cuarto Cuatrimestre\Programacion De Aplicaciones\Final Project\obj\Debug\PROYECTO_FINAL.TourInternacionalPrivado.resources
+C:\Users\Unknown\Documents\Universidad\Cuarto Cuatrimestre\Programacion De Aplicaciones\Final Project\obj\Debug\PROYECTO_FINAL.TourNacionalPrivado.resources
+C:\Users\Unknown\Documents\Universidad\Cuarto Cuatrimestre\Programacion De Aplicaciones\Final Project\obj\Debug\PROYECTO FINAL.csproj.GenerateResource.cache
+C:\Users\Unknown\Documents\Universidad\Cuarto Cuatrimestre\Programacion De Aplicaciones\Final Project\obj\Debug\PROYECTO FINAL.csproj.CoreCompileInputs.cache
+C:\Users\Unknown\Documents\Universidad\Cuarto Cuatrimestre\Programacion De Aplicaciones\Final Project\obj\Debug\PROYECTO FINAL.exe
+C:\Users\Unknown\Documents\Universidad\Cuarto Cuatrimestre\Programacion De Aplicaciones\Final Project\obj\Debug\PROYECTO FINAL.pdb
