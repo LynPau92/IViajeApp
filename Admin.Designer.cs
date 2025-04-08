@@ -30,8 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Admin));
             this.MenuVertical = new System.Windows.Forms.Panel();
-            this.pictureBox13 = new System.Windows.Forms.PictureBox();
-            this.Empleados = new System.Windows.Forms.Button();
             this.pictureBox14 = new System.Windows.Forms.PictureBox();
             this.Destinos = new System.Windows.Forms.Button();
             this.pictureBox15 = new System.Windows.Forms.PictureBox();
@@ -46,8 +44,9 @@
             this.iconcerrar = new System.Windows.Forms.PictureBox();
             this.btnMenu = new System.Windows.Forms.PictureBox();
             this.panelContenedor = new System.Windows.Forms.Panel();
+            this.Empleados = new System.Windows.Forms.Button();
+            this.pictureBox13 = new System.Windows.Forms.PictureBox();
             this.MenuVertical.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
@@ -58,6 +57,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.iconmaximizar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconcerrar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMenu)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
             this.SuspendLayout();
             // 
             // MenuVertical
@@ -77,29 +77,6 @@
             this.MenuVertical.Name = "MenuVertical";
             this.MenuVertical.Size = new System.Drawing.Size(252, 611);
             this.MenuVertical.TabIndex = 36;
-            // 
-            // pictureBox13
-            // 
-            this.pictureBox13.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox13.Image")));
-            this.pictureBox13.Location = new System.Drawing.Point(10, 162);
-            this.pictureBox13.Name = "pictureBox13";
-            this.pictureBox13.Size = new System.Drawing.Size(65, 49);
-            this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox13.TabIndex = 8;
-            this.pictureBox13.TabStop = false;
-            // 
-            // Empleados
-            // 
-            this.Empleados.FlatAppearance.BorderSize = 0;
-            this.Empleados.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Empleados.Font = new System.Drawing.Font("MS Reference Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Empleados.ForeColor = System.Drawing.Color.Teal;
-            this.Empleados.Location = new System.Drawing.Point(88, 162);
-            this.Empleados.Name = "Empleados";
-            this.Empleados.Size = new System.Drawing.Size(161, 61);
-            this.Empleados.TabIndex = 7;
-            this.Empleados.Text = "Empleados";
-            this.Empleados.UseVisualStyleBackColor = true;
             // 
             // pictureBox14
             // 
@@ -271,6 +248,29 @@
             this.panelContenedor.Size = new System.Drawing.Size(1032, 561);
             this.panelContenedor.TabIndex = 38;
             // 
+            // Empleados
+            // 
+            this.Empleados.FlatAppearance.BorderSize = 0;
+            this.Empleados.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Empleados.Font = new System.Drawing.Font("MS Reference Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Empleados.ForeColor = System.Drawing.Color.Teal;
+            this.Empleados.Location = new System.Drawing.Point(88, 162);
+            this.Empleados.Name = "Empleados";
+            this.Empleados.Size = new System.Drawing.Size(161, 61);
+            this.Empleados.TabIndex = 7;
+            this.Empleados.Text = "Empleados";
+            this.Empleados.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox13
+            // 
+            this.pictureBox13.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox13.Image")));
+            this.pictureBox13.Location = new System.Drawing.Point(10, 162);
+            this.pictureBox13.Name = "pictureBox13";
+            this.pictureBox13.Size = new System.Drawing.Size(65, 49);
+            this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox13.TabIndex = 8;
+            this.pictureBox13.TabStop = false;
+            // 
             // Admin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -282,7 +282,6 @@
             this.Name = "Admin";
             this.Text = "Admin";
             this.MenuVertical.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
@@ -293,6 +292,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.iconmaximizar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconcerrar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMenu)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -300,8 +300,6 @@
         #endregion
 
         private System.Windows.Forms.Panel MenuVertical;
-        private System.Windows.Forms.PictureBox pictureBox13;
-        private System.Windows.Forms.Button Empleados;
         private System.Windows.Forms.PictureBox pictureBox14;
         private System.Windows.Forms.Button Destinos;
         private System.Windows.Forms.PictureBox pictureBox15;
@@ -316,5 +314,7 @@
         private System.Windows.Forms.PictureBox iconcerrar;
         private System.Windows.Forms.PictureBox btnMenu;
         private System.Windows.Forms.Panel panelContenedor;
+        private System.Windows.Forms.PictureBox pictureBox13;
+        private System.Windows.Forms.Button Empleados;
     }
 }

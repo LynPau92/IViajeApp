@@ -34,21 +34,21 @@
             this.iconrestaurar = new System.Windows.Forms.PictureBox();
             this.iconminimizar = new System.Windows.Forms.PictureBox();
             this.BarraTitulo = new System.Windows.Forms.Panel();
+            this.Ofertas = new System.Windows.Forms.Button();
+            this.iViajeLogo = new System.Windows.Forms.PictureBox();
             this.Informacion = new System.Windows.Forms.Button();
             this.Inicio = new System.Windows.Forms.Button();
             this.Paquetes = new System.Windows.Forms.Button();
-            this.Sistema = new System.Windows.Forms.Button();
+            this.Administracion = new System.Windows.Forms.Button();
             this.panelContenedor = new System.Windows.Forms.Panel();
-            this.iViajeLogo = new System.Windows.Forms.PictureBox();
             this.PanelInicio = new System.Windows.Forms.Button();
-            this.Ofertas = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.iconcerrar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconmaximizar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconrestaurar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconminimizar)).BeginInit();
             this.BarraTitulo.SuspendLayout();
-            this.panelContenedor.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.iViajeLogo)).BeginInit();
+            this.panelContenedor.SuspendLayout();
             this.SuspendLayout();
             // 
             // iconcerrar
@@ -114,7 +114,7 @@
             this.BarraTitulo.Controls.Add(this.Informacion);
             this.BarraTitulo.Controls.Add(this.Inicio);
             this.BarraTitulo.Controls.Add(this.Paquetes);
-            this.BarraTitulo.Controls.Add(this.Sistema);
+            this.BarraTitulo.Controls.Add(this.Administracion);
             this.BarraTitulo.Controls.Add(this.iconminimizar);
             this.BarraTitulo.Controls.Add(this.iconrestaurar);
             this.BarraTitulo.Controls.Add(this.iconmaximizar);
@@ -125,6 +125,31 @@
             this.BarraTitulo.Size = new System.Drawing.Size(1300, 50);
             this.BarraTitulo.TabIndex = 1;
             this.BarraTitulo.MouseDown += new System.Windows.Forms.MouseEventHandler(this.BarraTitulo_MouseDown);
+            // 
+            // Ofertas
+            // 
+            this.Ofertas.FlatAppearance.BorderSize = 0;
+            this.Ofertas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Ofertas.Font = new System.Drawing.Font("MS Reference Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Ofertas.ForeColor = System.Drawing.Color.Teal;
+            this.Ofertas.Location = new System.Drawing.Point(546, 12);
+            this.Ofertas.Name = "Ofertas";
+            this.Ofertas.Size = new System.Drawing.Size(188, 32);
+            this.Ofertas.TabIndex = 19;
+            this.Ofertas.Text = "Ofertas";
+            this.Ofertas.UseVisualStyleBackColor = true;
+            this.Ofertas.Click += new System.EventHandler(this.Ofertas_Click);
+            // 
+            // iViajeLogo
+            // 
+            this.iViajeLogo.BackColor = System.Drawing.Color.White;
+            this.iViajeLogo.Image = ((System.Drawing.Image)(resources.GetObject("iViajeLogo.Image")));
+            this.iViajeLogo.Location = new System.Drawing.Point(0, 0);
+            this.iViajeLogo.Name = "iViajeLogo";
+            this.iViajeLogo.Size = new System.Drawing.Size(215, 50);
+            this.iViajeLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.iViajeLogo.TabIndex = 18;
+            this.iViajeLogo.TabStop = false;
             // 
             // Informacion
             // 
@@ -168,19 +193,19 @@
             this.Paquetes.UseVisualStyleBackColor = true;
             this.Paquetes.Click += new System.EventHandler(this.Paquetes_Click);
             // 
-            // Sistema
+            // Administracion
             // 
-            this.Sistema.FlatAppearance.BorderSize = 0;
-            this.Sistema.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Sistema.Font = new System.Drawing.Font("MS Reference Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Sistema.ForeColor = System.Drawing.Color.Teal;
-            this.Sistema.Location = new System.Drawing.Point(1088, 12);
-            this.Sistema.Name = "Sistema";
-            this.Sistema.Size = new System.Drawing.Size(128, 32);
-            this.Sistema.TabIndex = 3;
-            this.Sistema.Text = "Administración";
-            this.Sistema.UseVisualStyleBackColor = true;
-            this.Sistema.Click += new System.EventHandler(this.Sistema_Click);
+            this.Administracion.FlatAppearance.BorderSize = 0;
+            this.Administracion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Administracion.Font = new System.Drawing.Font("MS Reference Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Administracion.ForeColor = System.Drawing.Color.Teal;
+            this.Administracion.Location = new System.Drawing.Point(1088, 12);
+            this.Administracion.Name = "Administracion";
+            this.Administracion.Size = new System.Drawing.Size(128, 32);
+            this.Administracion.TabIndex = 3;
+            this.Administracion.Text = "Administración";
+            this.Administracion.UseVisualStyleBackColor = true;
+            this.Administracion.Click += new System.EventHandler(this.Administracion_Click);
             // 
             // panelContenedor
             // 
@@ -191,17 +216,6 @@
             this.panelContenedor.Name = "panelContenedor";
             this.panelContenedor.Size = new System.Drawing.Size(1300, 600);
             this.panelContenedor.TabIndex = 38;
-            // 
-            // iViajeLogo
-            // 
-            this.iViajeLogo.BackColor = System.Drawing.Color.White;
-            this.iViajeLogo.Image = ((System.Drawing.Image)(resources.GetObject("iViajeLogo.Image")));
-            this.iViajeLogo.Location = new System.Drawing.Point(0, 0);
-            this.iViajeLogo.Name = "iViajeLogo";
-            this.iViajeLogo.Size = new System.Drawing.Size(215, 50);
-            this.iViajeLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.iViajeLogo.TabIndex = 18;
-            this.iViajeLogo.TabStop = false;
             // 
             // PanelInicio
             // 
@@ -221,20 +235,6 @@
             this.PanelInicio.UseCompatibleTextRendering = true;
             this.PanelInicio.UseVisualStyleBackColor = false;
             // 
-            // Ofertas
-            // 
-            this.Ofertas.FlatAppearance.BorderSize = 0;
-            this.Ofertas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Ofertas.Font = new System.Drawing.Font("MS Reference Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Ofertas.ForeColor = System.Drawing.Color.Teal;
-            this.Ofertas.Location = new System.Drawing.Point(546, 12);
-            this.Ofertas.Name = "Ofertas";
-            this.Ofertas.Size = new System.Drawing.Size(188, 32);
-            this.Ofertas.TabIndex = 19;
-            this.Ofertas.Text = "Ofertas";
-            this.Ofertas.UseVisualStyleBackColor = true;
-            this.Ofertas.Click += new System.EventHandler(this.Ofertas_Click);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -249,8 +249,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.iconrestaurar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconminimizar)).EndInit();
             this.BarraTitulo.ResumeLayout(false);
-            this.panelContenedor.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.iViajeLogo)).EndInit();
+            this.panelContenedor.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -262,7 +262,7 @@
         private System.Windows.Forms.PictureBox iconminimizar;
         private System.Windows.Forms.Panel BarraTitulo;
         private System.Windows.Forms.Panel panelContenedor;
-        private System.Windows.Forms.Button Sistema;
+        private System.Windows.Forms.Button Administracion;
         private System.Windows.Forms.Button Inicio;
         private System.Windows.Forms.Button Paquetes;
         private System.Windows.Forms.Button Informacion;
