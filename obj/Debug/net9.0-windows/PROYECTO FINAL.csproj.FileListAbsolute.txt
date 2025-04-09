@@ -7,13 +7,10 @@ C:\Users\Karina\Source\Repos\IViajeApp\obj\Debug\net9.0-windows\PROYECTO_FINAL.I
 C:\Users\Karina\Source\Repos\IViajeApp\obj\Debug\net9.0-windows\PROYECTO_FINAL.Inicio.resources
 C:\Users\Karina\Source\Repos\IViajeApp\obj\Debug\net9.0-windows\PROYECTO_FINAL.Ofertas.resources
 C:\Users\Karina\Source\Repos\IViajeApp\obj\Debug\net9.0-windows\PROYECTO_FINAL.OfertasyDescuentos.resources
-C:\Users\Karina\Source\Repos\IViajeApp\obj\Debug\net9.0-windows\PROYECTO_FINAL.PaqueteInternacionalGrupo.resources
 C:\Users\Karina\Source\Repos\IViajeApp\obj\Debug\net9.0-windows\PROYECTO_FINAL.PaqueteNacionalesGrupo.resources
 C:\Users\Karina\Source\Repos\IViajeApp\obj\Debug\net9.0-windows\PROYECTO_FINAL.Paquetes.resources
 C:\Users\Karina\Source\Repos\IViajeApp\obj\Debug\net9.0-windows\PROYECTO_FINAL.Properties.Resources.resources
-C:\Users\Karina\Source\Repos\IViajeApp\obj\Debug\net9.0-windows\PROYECTO_FINAL.ReservasClientes.resources
 C:\Users\Karina\Source\Repos\IViajeApp\obj\Debug\net9.0-windows\PROYECTO_FINAL.TipoDeViaje.resources
-C:\Users\Karina\Source\Repos\IViajeApp\obj\Debug\net9.0-windows\PROYECTO_FINAL.TourInternacionalPrivado.resources
 C:\Users\Karina\Source\Repos\IViajeApp\obj\Debug\net9.0-windows\PROYECTO_FINAL.TourNacionalPrivado.resources
 C:\Users\Karina\Source\Repos\IViajeApp\obj\Debug\net9.0-windows\PROYECTO FINAL.csproj.GenerateResource.cache
 C:\Users\Karina\Source\Repos\IViajeApp\obj\Debug\net9.0-windows\PROYECTO FINAL.GeneratedMSBuildEditorConfig.editorconfig
@@ -83,3 +80,5 @@ C:\Users\Karina\Source\Repos\IViajeApp\bin\Debug\net9.0-windows\runtimes\win-x86
 C:\Users\Karina\Source\Repos\IViajeApp\bin\Debug\net9.0-windows\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
 C:\Users\Karina\Source\Repos\IViajeApp\bin\Debug\net9.0-windows\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
 C:\Users\Karina\Source\Repos\IViajeApp\obj\Debug\net9.0-windows\PROYECTO_FINAL.Reservas_1.resources
+C:\Users\Karina\Source\Repos\IViajeApp\obj\Debug\net9.0-windows\PROYECTO_FINAL.PaqueteInternacionalGrupo.resources
+C:\Users\Karina\Source\Repos\IViajeApp\obj\Debug\net9.0-windows\PROYECTO_FINAL.TourInternacionalPrivado.resources
