@@ -112,7 +112,7 @@
             // 
             // jkl
             // 
-            this.jkl.Location = new System.Drawing.Point(559, 172);
+            this.jkl.Location = new System.Drawing.Point(532, 171);
             this.jkl.Name = "jkl";
             this.jkl.Size = new System.Drawing.Size(75, 23);
             this.jkl.TabIndex = 9;
