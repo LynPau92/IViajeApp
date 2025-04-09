@@ -1,0 +1,84 @@
+C:\Users\Karina\Source\Repos\IViajeApp\obj\Debug\net9.0-windows\PROYECTO FINAL.csproj.AssemblyReference.cache
+C:\Users\Karina\Source\Repos\IViajeApp\obj\Debug\net9.0-windows\PROYECTO_FINAL.Admin.resources
+C:\Users\Karina\Source\Repos\IViajeApp\obj\Debug\net9.0-windows\PROYECTO_FINAL.Contacto.resources
+C:\Users\Karina\Source\Repos\IViajeApp\obj\Debug\net9.0-windows\PROYECTO_FINAL.Form1.resources
+C:\Users\Karina\Source\Repos\IViajeApp\obj\Debug\net9.0-windows\PROYECTO_FINAL.HotelesYResorts.resources
+C:\Users\Karina\Source\Repos\IViajeApp\obj\Debug\net9.0-windows\PROYECTO_FINAL.Información.resources
+C:\Users\Karina\Source\Repos\IViajeApp\obj\Debug\net9.0-windows\PROYECTO_FINAL.Inicio.resources
+C:\Users\Karina\Source\Repos\IViajeApp\obj\Debug\net9.0-windows\PROYECTO_FINAL.Ofertas.resources
+C:\Users\Karina\Source\Repos\IViajeApp\obj\Debug\net9.0-windows\PROYECTO_FINAL.OfertasyDescuentos.resources
+C:\Users\Karina\Source\Repos\IViajeApp\obj\Debug\net9.0-windows\PROYECTO_FINAL.PaqueteInternacionalGrupo.resources
+C:\Users\Karina\Source\Repos\IViajeApp\obj\Debug\net9.0-windows\PROYECTO_FINAL.PaqueteNacionalesGrupo.resources
+C:\Users\Karina\Source\Repos\IViajeApp\obj\Debug\net9.0-windows\PROYECTO_FINAL.Paquetes.resources
+C:\Users\Karina\Source\Repos\IViajeApp\obj\Debug\net9.0-windows\PROYECTO_FINAL.Properties.Resources.resources
+C:\Users\Karina\Source\Repos\IViajeApp\obj\Debug\net9.0-windows\PROYECTO_FINAL.ReservasClientes.resources
+C:\Users\Karina\Source\Repos\IViajeApp\obj\Debug\net9.0-windows\PROYECTO_FINAL.TipoDeViaje.resources
+C:\Users\Karina\Source\Repos\IViajeApp\obj\Debug\net9.0-windows\PROYECTO_FINAL.TourInternacionalPrivado.resources
+C:\Users\Karina\Source\Repos\IViajeApp\obj\Debug\net9.0-windows\PROYECTO_FINAL.TourNacionalPrivado.resources
+C:\Users\Karina\Source\Repos\IViajeApp\obj\Debug\net9.0-windows\PROYECTO FINAL.csproj.GenerateResource.cache
+C:\Users\Karina\Source\Repos\IViajeApp\obj\Debug\net9.0-windows\PROYECTO FINAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Karina\Source\Repos\IViajeApp\obj\Debug\net9.0-windows\PROYECTO FINAL.csproj.CoreCompileInputs.cache
+C:\Users\Karina\Source\Repos\IViajeApp\obj\Debug\net9.0-windows\PROYECTO FINAL.sourcelink.json
+C:\Users\Karina\Source\Repos\IViajeApp\bin\Debug\net9.0-windows\PROYECTO FINAL.exe
+C:\Users\Karina\Source\Repos\IViajeApp\bin\Debug\net9.0-windows\PROYECTO FINAL.dll.config
+C:\Users\Karina\Source\Repos\IViajeApp\bin\Debug\net9.0-windows\PROYECTO FINAL.deps.json
+C:\Users\Karina\Source\Repos\IViajeApp\bin\Debug\net9.0-windows\PROYECTO FINAL.runtimeconfig.json
+C:\Users\Karina\Source\Repos\IViajeApp\bin\Debug\net9.0-windows\PROYECTO FINAL.dll
+C:\Users\Karina\Source\Repos\IViajeApp\bin\Debug\net9.0-windows\PROYECTO FINAL.pdb
+C:\Users\Karina\Source\Repos\IViajeApp\bin\Debug\net9.0-windows\System.Configuration.ConfigurationManager.dll
+C:\Users\Karina\Source\Repos\IViajeApp\bin\Debug\net9.0-windows\System.Diagnostics.EventLog.dll
+C:\Users\Karina\Source\Repos\IViajeApp\bin\Debug\net9.0-windows\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Karina\Source\Repos\IViajeApp\bin\Debug\net9.0-windows\runtimes\win\lib\net9.0\System.Diagnostics.EventLog.dll
+C:\Users\Karina\Source\Repos\IViajeApp\obj\Debug\net9.0-windows\PROYECTO.CCD23A31.Up2Date
+C:\Users\Karina\Source\Repos\IViajeApp\obj\Debug\net9.0-windows\PROYECTO FINAL.dll
+C:\Users\Karina\Source\Repos\IViajeApp\obj\Debug\net9.0-windows\refint\PROYECTO FINAL.dll
+C:\Users\Karina\Source\Repos\IViajeApp\obj\Debug\net9.0-windows\PROYECTO FINAL.pdb
+C:\Users\Karina\Source\Repos\IViajeApp\obj\Debug\net9.0-windows\PROYECTO FINAL.genruntimeconfig.cache
+C:\Users\Karina\Source\Repos\IViajeApp\obj\Debug\net9.0-windows\ref\PROYECTO FINAL.dll
+C:\Users\Karina\Source\Repos\IViajeApp\bin\Debug\net9.0-windows\Azure.Core.dll
+C:\Users\Karina\Source\Repos\IViajeApp\bin\Debug\net9.0-windows\Azure.Identity.dll
+C:\Users\Karina\Source\Repos\IViajeApp\bin\Debug\net9.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Karina\Source\Repos\IViajeApp\bin\Debug\net9.0-windows\Microsoft.Bcl.Cryptography.dll
+C:\Users\Karina\Source\Repos\IViajeApp\bin\Debug\net9.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\Karina\Source\Repos\IViajeApp\bin\Debug\net9.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Karina\Source\Repos\IViajeApp\bin\Debug\net9.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Karina\Source\Repos\IViajeApp\bin\Debug\net9.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Karina\Source\Repos\IViajeApp\bin\Debug\net9.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Karina\Source\Repos\IViajeApp\bin\Debug\net9.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\Karina\Source\Repos\IViajeApp\bin\Debug\net9.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\Karina\Source\Repos\IViajeApp\bin\Debug\net9.0-windows\Microsoft.Identity.Client.dll
+C:\Users\Karina\Source\Repos\IViajeApp\bin\Debug\net9.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Karina\Source\Repos\IViajeApp\bin\Debug\net9.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Karina\Source\Repos\IViajeApp\bin\Debug\net9.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Karina\Source\Repos\IViajeApp\bin\Debug\net9.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\Karina\Source\Repos\IViajeApp\bin\Debug\net9.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Karina\Source\Repos\IViajeApp\bin\Debug\net9.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Karina\Source\Repos\IViajeApp\bin\Debug\net9.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Karina\Source\Repos\IViajeApp\bin\Debug\net9.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\Karina\Source\Repos\IViajeApp\bin\Debug\net9.0-windows\System.ClientModel.dll
+C:\Users\Karina\Source\Repos\IViajeApp\bin\Debug\net9.0-windows\System.Data.SqlClient.dll
+C:\Users\Karina\Source\Repos\IViajeApp\bin\Debug\net9.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Karina\Source\Repos\IViajeApp\bin\Debug\net9.0-windows\System.Memory.Data.dll
+C:\Users\Karina\Source\Repos\IViajeApp\bin\Debug\net9.0-windows\cs\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Karina\Source\Repos\IViajeApp\bin\Debug\net9.0-windows\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Karina\Source\Repos\IViajeApp\bin\Debug\net9.0-windows\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Karina\Source\Repos\IViajeApp\bin\Debug\net9.0-windows\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Karina\Source\Repos\IViajeApp\bin\Debug\net9.0-windows\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Karina\Source\Repos\IViajeApp\bin\Debug\net9.0-windows\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Karina\Source\Repos\IViajeApp\bin\Debug\net9.0-windows\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Karina\Source\Repos\IViajeApp\bin\Debug\net9.0-windows\pl\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Karina\Source\Repos\IViajeApp\bin\Debug\net9.0-windows\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Karina\Source\Repos\IViajeApp\bin\Debug\net9.0-windows\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Karina\Source\Repos\IViajeApp\bin\Debug\net9.0-windows\tr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Karina\Source\Repos\IViajeApp\bin\Debug\net9.0-windows\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Karina\Source\Repos\IViajeApp\bin\Debug\net9.0-windows\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Karina\Source\Repos\IViajeApp\bin\Debug\net9.0-windows\runtimes\unix\lib\net9.0\Microsoft.Data.SqlClient.dll
+C:\Users\Karina\Source\Repos\IViajeApp\bin\Debug\net9.0-windows\runtimes\win\lib\net9.0\Microsoft.Data.SqlClient.dll
+C:\Users\Karina\Source\Repos\IViajeApp\bin\Debug\net9.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Karina\Source\Repos\IViajeApp\bin\Debug\net9.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Karina\Source\Repos\IViajeApp\bin\Debug\net9.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Karina\Source\Repos\IViajeApp\bin\Debug\net9.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\Karina\Source\Repos\IViajeApp\bin\Debug\net9.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\Karina\Source\Repos\IViajeApp\bin\Debug\net9.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\Karina\Source\Repos\IViajeApp\bin\Debug\net9.0-windows\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\Karina\Source\Repos\IViajeApp\bin\Debug\net9.0-windows\runtimes\win\lib\net8.0\System.Data.SqlClient.dll

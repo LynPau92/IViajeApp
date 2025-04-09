@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
+using Microsoft.VisualBasic;
 
 namespace PROYECTO_FINAL
 {
@@ -90,6 +91,30 @@ namespace PROYECTO_FINAL
         private void Sistema_Click(object sender, EventArgs e)
         {
             AbrirFormEnPanel(new Admin());
+        }
+
+        private void Administracion_Click(object sender, EventArgs e)
+        {
+            string usuario = Microsoft.VisualBasic.Interaction.InputBox("Ingrese su usuario:", "Acceso a Administración", "");
+
+            if (usuario == "Lyn")
+            {
+                string password = Microsoft.VisualBasic.Interaction.InputBox("Ingrese su contraseña:", "Acceso a Administración", "");
+
+                if (password == "1234")
+                {
+                    Admin adminForm = new Admin();
+                    adminForm.Show();
+                }
+                else
+                {
+                    MessageBox.Show("Contraseña incorrecta", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+            else
+            {
+                MessageBox.Show("Usuario incorrecto", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }
