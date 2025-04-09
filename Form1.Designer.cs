@@ -29,229 +29,243 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.iconcerrar = new System.Windows.Forms.PictureBox();
-            this.iconmaximizar = new System.Windows.Forms.PictureBox();
-            this.iconrestaurar = new System.Windows.Forms.PictureBox();
-            this.iconminimizar = new System.Windows.Forms.PictureBox();
-            this.BarraTitulo = new System.Windows.Forms.Panel();
-            this.Ofertas = new System.Windows.Forms.Button();
-            this.iViajeLogo = new System.Windows.Forms.PictureBox();
-            this.Informacion = new System.Windows.Forms.Button();
-            this.Inicio = new System.Windows.Forms.Button();
-            this.Paquetes = new System.Windows.Forms.Button();
-            this.Administracion = new System.Windows.Forms.Button();
-            this.panelContenedor = new System.Windows.Forms.Panel();
-            this.PanelInicio = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.iconcerrar)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconmaximizar)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconrestaurar)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconminimizar)).BeginInit();
-            this.BarraTitulo.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.iViajeLogo)).BeginInit();
-            this.panelContenedor.SuspendLayout();
-            this.SuspendLayout();
+            iconcerrar = new System.Windows.Forms.PictureBox();
+            iconmaximizar = new System.Windows.Forms.PictureBox();
+            iconrestaurar = new System.Windows.Forms.PictureBox();
+            iconminimizar = new System.Windows.Forms.PictureBox();
+            BarraTitulo = new System.Windows.Forms.Panel();
+            Ofertas = new System.Windows.Forms.Button();
+            iViajeLogo = new System.Windows.Forms.PictureBox();
+            Informacion = new System.Windows.Forms.Button();
+            Inicio = new System.Windows.Forms.Button();
+            Paquetes = new System.Windows.Forms.Button();
+            Administracion = new System.Windows.Forms.Button();
+            panelContenedor = new System.Windows.Forms.Panel();
+            PanelInicio = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)iconcerrar).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)iconmaximizar).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)iconrestaurar).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)iconminimizar).BeginInit();
+            BarraTitulo.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)iViajeLogo).BeginInit();
+            panelContenedor.SuspendLayout();
+            SuspendLayout();
             // 
             // iconcerrar
             // 
-            this.iconcerrar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.iconcerrar.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.iconcerrar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconcerrar.Image = ((System.Drawing.Image)(resources.GetObject("iconcerrar.Image")));
-            this.iconcerrar.Location = new System.Drawing.Point(1270, 9);
-            this.iconcerrar.Name = "iconcerrar";
-            this.iconcerrar.Size = new System.Drawing.Size(18, 18);
-            this.iconcerrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.iconcerrar.TabIndex = 1;
-            this.iconcerrar.TabStop = false;
-            this.iconcerrar.Click += new System.EventHandler(this.iconcerrar_Click);
+            iconcerrar.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right;
+            iconcerrar.BackColor = System.Drawing.Color.WhiteSmoke;
+            iconcerrar.Cursor = System.Windows.Forms.Cursors.Hand;
+            iconcerrar.Image = (System.Drawing.Image)resources.GetObject("iconcerrar.Image");
+            iconcerrar.Location = new System.Drawing.Point(1482, 10);
+            iconcerrar.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            iconcerrar.Name = "iconcerrar";
+            iconcerrar.Size = new System.Drawing.Size(21, 21);
+            iconcerrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            iconcerrar.TabIndex = 1;
+            iconcerrar.TabStop = false;
+            iconcerrar.Click += iconcerrar_Click;
             // 
             // iconmaximizar
             // 
-            this.iconmaximizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.iconmaximizar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconmaximizar.Image = ((System.Drawing.Image)(resources.GetObject("iconmaximizar.Image")));
-            this.iconmaximizar.Location = new System.Drawing.Point(1246, 9);
-            this.iconmaximizar.Name = "iconmaximizar";
-            this.iconmaximizar.Size = new System.Drawing.Size(18, 18);
-            this.iconmaximizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.iconmaximizar.TabIndex = 2;
-            this.iconmaximizar.TabStop = false;
-            this.iconmaximizar.Click += new System.EventHandler(this.iconmaximizar_Click);
+            iconmaximizar.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right;
+            iconmaximizar.Cursor = System.Windows.Forms.Cursors.Hand;
+            iconmaximizar.Image = (System.Drawing.Image)resources.GetObject("iconmaximizar.Image");
+            iconmaximizar.Location = new System.Drawing.Point(1454, 10);
+            iconmaximizar.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            iconmaximizar.Name = "iconmaximizar";
+            iconmaximizar.Size = new System.Drawing.Size(21, 21);
+            iconmaximizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            iconmaximizar.TabIndex = 2;
+            iconmaximizar.TabStop = false;
+            iconmaximizar.Click += iconmaximizar_Click;
             // 
             // iconrestaurar
             // 
-            this.iconrestaurar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.iconrestaurar.BackColor = System.Drawing.Color.White;
-            this.iconrestaurar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconrestaurar.Image = ((System.Drawing.Image)(resources.GetObject("iconrestaurar.Image")));
-            this.iconrestaurar.Location = new System.Drawing.Point(1246, 9);
-            this.iconrestaurar.Name = "iconrestaurar";
-            this.iconrestaurar.Size = new System.Drawing.Size(18, 18);
-            this.iconrestaurar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.iconrestaurar.TabIndex = 1;
-            this.iconrestaurar.TabStop = false;
-            this.iconrestaurar.Click += new System.EventHandler(this.iconrestaurar_Click);
+            iconrestaurar.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right;
+            iconrestaurar.BackColor = System.Drawing.Color.White;
+            iconrestaurar.Cursor = System.Windows.Forms.Cursors.Hand;
+            iconrestaurar.Image = (System.Drawing.Image)resources.GetObject("iconrestaurar.Image");
+            iconrestaurar.Location = new System.Drawing.Point(1454, 10);
+            iconrestaurar.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            iconrestaurar.Name = "iconrestaurar";
+            iconrestaurar.Size = new System.Drawing.Size(21, 21);
+            iconrestaurar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            iconrestaurar.TabIndex = 1;
+            iconrestaurar.TabStop = false;
+            iconrestaurar.Click += iconrestaurar_Click;
             // 
             // iconminimizar
             // 
-            this.iconminimizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.iconminimizar.BackColor = System.Drawing.Color.White;
-            this.iconminimizar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconminimizar.Image = ((System.Drawing.Image)(resources.GetObject("iconminimizar.Image")));
-            this.iconminimizar.Location = new System.Drawing.Point(1222, 9);
-            this.iconminimizar.Name = "iconminimizar";
-            this.iconminimizar.Size = new System.Drawing.Size(18, 18);
-            this.iconminimizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.iconminimizar.TabIndex = 2;
-            this.iconminimizar.TabStop = false;
-            this.iconminimizar.Click += new System.EventHandler(this.iconminimizar_Click);
+            iconminimizar.Anchor = System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right;
+            iconminimizar.BackColor = System.Drawing.Color.White;
+            iconminimizar.Cursor = System.Windows.Forms.Cursors.Hand;
+            iconminimizar.Image = (System.Drawing.Image)resources.GetObject("iconminimizar.Image");
+            iconminimizar.Location = new System.Drawing.Point(1426, 10);
+            iconminimizar.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            iconminimizar.Name = "iconminimizar";
+            iconminimizar.Size = new System.Drawing.Size(21, 21);
+            iconminimizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            iconminimizar.TabIndex = 2;
+            iconminimizar.TabStop = false;
+            iconminimizar.Click += iconminimizar_Click;
             // 
             // BarraTitulo
             // 
-            this.BarraTitulo.BackColor = System.Drawing.Color.White;
-            this.BarraTitulo.Controls.Add(this.Ofertas);
-            this.BarraTitulo.Controls.Add(this.iViajeLogo);
-            this.BarraTitulo.Controls.Add(this.Informacion);
-            this.BarraTitulo.Controls.Add(this.Inicio);
-            this.BarraTitulo.Controls.Add(this.Paquetes);
-            this.BarraTitulo.Controls.Add(this.Administracion);
-            this.BarraTitulo.Controls.Add(this.iconminimizar);
-            this.BarraTitulo.Controls.Add(this.iconrestaurar);
-            this.BarraTitulo.Controls.Add(this.iconmaximizar);
-            this.BarraTitulo.Controls.Add(this.iconcerrar);
-            this.BarraTitulo.Dock = System.Windows.Forms.DockStyle.Top;
-            this.BarraTitulo.Location = new System.Drawing.Point(0, 0);
-            this.BarraTitulo.Name = "BarraTitulo";
-            this.BarraTitulo.Size = new System.Drawing.Size(1300, 50);
-            this.BarraTitulo.TabIndex = 1;
-            this.BarraTitulo.MouseDown += new System.Windows.Forms.MouseEventHandler(this.BarraTitulo_MouseDown);
+            BarraTitulo.BackColor = System.Drawing.Color.White;
+            BarraTitulo.Controls.Add(Ofertas);
+            BarraTitulo.Controls.Add(iViajeLogo);
+            BarraTitulo.Controls.Add(Informacion);
+            BarraTitulo.Controls.Add(Inicio);
+            BarraTitulo.Controls.Add(Paquetes);
+            BarraTitulo.Controls.Add(Administracion);
+            BarraTitulo.Controls.Add(iconminimizar);
+            BarraTitulo.Controls.Add(iconrestaurar);
+            BarraTitulo.Controls.Add(iconmaximizar);
+            BarraTitulo.Controls.Add(iconcerrar);
+            BarraTitulo.Dock = System.Windows.Forms.DockStyle.Top;
+            BarraTitulo.Location = new System.Drawing.Point(0, 0);
+            BarraTitulo.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            BarraTitulo.Name = "BarraTitulo";
+            BarraTitulo.Size = new System.Drawing.Size(1517, 58);
+            BarraTitulo.TabIndex = 1;
+            BarraTitulo.MouseDown += BarraTitulo_MouseDown;
             // 
             // Ofertas
             // 
-            this.Ofertas.FlatAppearance.BorderSize = 0;
-            this.Ofertas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Ofertas.Font = new System.Drawing.Font("MS Reference Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Ofertas.ForeColor = System.Drawing.Color.Teal;
-            this.Ofertas.Location = new System.Drawing.Point(546, 12);
-            this.Ofertas.Name = "Ofertas";
-            this.Ofertas.Size = new System.Drawing.Size(188, 32);
-            this.Ofertas.TabIndex = 19;
-            this.Ofertas.Text = "Ofertas";
-            this.Ofertas.UseVisualStyleBackColor = true;
-            this.Ofertas.Click += new System.EventHandler(this.Ofertas_Click);
+            Ofertas.FlatAppearance.BorderSize = 0;
+            Ofertas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            Ofertas.Font = new System.Drawing.Font("MS Reference Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            Ofertas.ForeColor = System.Drawing.Color.Teal;
+            Ofertas.Location = new System.Drawing.Point(553, 12);
+            Ofertas.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            Ofertas.Name = "Ofertas";
+            Ofertas.Size = new System.Drawing.Size(219, 37);
+            Ofertas.TabIndex = 19;
+            Ofertas.Text = "Ofertas";
+            Ofertas.UseVisualStyleBackColor = true;
+            Ofertas.Click += Ofertas_Click;
             // 
             // iViajeLogo
             // 
-            this.iViajeLogo.BackColor = System.Drawing.Color.White;
-            this.iViajeLogo.Image = ((System.Drawing.Image)(resources.GetObject("iViajeLogo.Image")));
-            this.iViajeLogo.Location = new System.Drawing.Point(0, 0);
-            this.iViajeLogo.Name = "iViajeLogo";
-            this.iViajeLogo.Size = new System.Drawing.Size(215, 50);
-            this.iViajeLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.iViajeLogo.TabIndex = 18;
-            this.iViajeLogo.TabStop = false;
+            iViajeLogo.BackColor = System.Drawing.Color.White;
+            iViajeLogo.Image = (System.Drawing.Image)resources.GetObject("iViajeLogo.Image");
+            iViajeLogo.Location = new System.Drawing.Point(0, 0);
+            iViajeLogo.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            iViajeLogo.Name = "iViajeLogo";
+            iViajeLogo.Size = new System.Drawing.Size(150, 58);
+            iViajeLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            iViajeLogo.TabIndex = 18;
+            iViajeLogo.TabStop = false;
             // 
             // Informacion
             // 
-            this.Informacion.FlatAppearance.BorderSize = 0;
-            this.Informacion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Informacion.Font = new System.Drawing.Font("MS Reference Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Informacion.ForeColor = System.Drawing.Color.Teal;
-            this.Informacion.Location = new System.Drawing.Point(756, 12);
-            this.Informacion.Name = "Informacion";
-            this.Informacion.Size = new System.Drawing.Size(188, 33);
-            this.Informacion.TabIndex = 6;
-            this.Informacion.Text = "Información";
-            this.Informacion.UseVisualStyleBackColor = true;
-            this.Informacion.Click += new System.EventHandler(this.Informacion_Click);
+            Informacion.FlatAppearance.BorderSize = 0;
+            Informacion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            Informacion.Font = new System.Drawing.Font("MS Reference Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            Informacion.ForeColor = System.Drawing.Color.Teal;
+            Informacion.Location = new System.Drawing.Point(798, 12);
+            Informacion.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            Informacion.Name = "Informacion";
+            Informacion.Size = new System.Drawing.Size(219, 38);
+            Informacion.TabIndex = 6;
+            Informacion.Text = "Información";
+            Informacion.UseVisualStyleBackColor = true;
+            Informacion.Click += Informacion_Click;
             // 
             // Inicio
             // 
-            this.Inicio.FlatAppearance.BorderSize = 0;
-            this.Inicio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Inicio.Font = new System.Drawing.Font("MS Reference Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Inicio.ForeColor = System.Drawing.Color.Teal;
-            this.Inicio.Location = new System.Drawing.Point(235, 12);
-            this.Inicio.Name = "Inicio";
-            this.Inicio.Size = new System.Drawing.Size(59, 33);
-            this.Inicio.TabIndex = 5;
-            this.Inicio.Text = "Inicio";
-            this.Inicio.UseVisualStyleBackColor = true;
-            this.Inicio.Click += new System.EventHandler(this.Inicio_Click);
+            Inicio.FlatAppearance.BorderSize = 0;
+            Inicio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            Inicio.Font = new System.Drawing.Font("MS Reference Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            Inicio.ForeColor = System.Drawing.Color.Teal;
+            Inicio.Location = new System.Drawing.Point(190, 12);
+            Inicio.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            Inicio.Name = "Inicio";
+            Inicio.Size = new System.Drawing.Size(69, 38);
+            Inicio.TabIndex = 5;
+            Inicio.Text = "Inicio";
+            Inicio.UseVisualStyleBackColor = true;
+            Inicio.Click += Inicio_Click;
             // 
             // Paquetes
             // 
-            this.Paquetes.FlatAppearance.BorderSize = 0;
-            this.Paquetes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Paquetes.Font = new System.Drawing.Font("MS Reference Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Paquetes.ForeColor = System.Drawing.Color.Teal;
-            this.Paquetes.Location = new System.Drawing.Point(330, 12);
-            this.Paquetes.Name = "Paquetes";
-            this.Paquetes.Size = new System.Drawing.Size(188, 32);
-            this.Paquetes.TabIndex = 4;
-            this.Paquetes.Text = "Paquetes ";
-            this.Paquetes.UseVisualStyleBackColor = true;
-            this.Paquetes.Click += new System.EventHandler(this.Paquetes_Click);
+            Paquetes.FlatAppearance.BorderSize = 0;
+            Paquetes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            Paquetes.Font = new System.Drawing.Font("MS Reference Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            Paquetes.ForeColor = System.Drawing.Color.Teal;
+            Paquetes.Location = new System.Drawing.Point(301, 12);
+            Paquetes.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            Paquetes.Name = "Paquetes";
+            Paquetes.Size = new System.Drawing.Size(219, 37);
+            Paquetes.TabIndex = 4;
+            Paquetes.Text = "Paquetes ";
+            Paquetes.UseVisualStyleBackColor = true;
+            Paquetes.Click += Paquetes_Click;
             // 
             // Administracion
             // 
-            this.Administracion.FlatAppearance.BorderSize = 0;
-            this.Administracion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Administracion.Font = new System.Drawing.Font("MS Reference Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Administracion.ForeColor = System.Drawing.Color.Teal;
-            this.Administracion.Location = new System.Drawing.Point(1088, 12);
-            this.Administracion.Name = "Administracion";
-            this.Administracion.Size = new System.Drawing.Size(128, 32);
-            this.Administracion.TabIndex = 3;
-            this.Administracion.Text = "Administración";
-            this.Administracion.UseVisualStyleBackColor = true;
-            this.Administracion.Click += new System.EventHandler(this.Administracion_Click);
+            Administracion.FlatAppearance.BorderSize = 0;
+            Administracion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            Administracion.Font = new System.Drawing.Font("MS Reference Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            Administracion.ForeColor = System.Drawing.Color.Teal;
+            Administracion.Location = new System.Drawing.Point(1269, 14);
+            Administracion.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            Administracion.Name = "Administracion";
+            Administracion.Size = new System.Drawing.Size(149, 37);
+            Administracion.TabIndex = 3;
+            Administracion.Text = "Administración";
+            Administracion.UseVisualStyleBackColor = true;
+            Administracion.Click += Administracion_Click;
             // 
             // panelContenedor
             // 
-            this.panelContenedor.BackColor = System.Drawing.Color.Transparent;
-            this.panelContenedor.Controls.Add(this.PanelInicio);
-            this.panelContenedor.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelContenedor.Location = new System.Drawing.Point(0, 50);
-            this.panelContenedor.Name = "panelContenedor";
-            this.panelContenedor.Size = new System.Drawing.Size(1300, 600);
-            this.panelContenedor.TabIndex = 38;
+            panelContenedor.BackColor = System.Drawing.Color.Transparent;
+            panelContenedor.Controls.Add(PanelInicio);
+            panelContenedor.Dock = System.Windows.Forms.DockStyle.Fill;
+            panelContenedor.Location = new System.Drawing.Point(0, 58);
+            panelContenedor.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            panelContenedor.Name = "panelContenedor";
+            panelContenedor.Size = new System.Drawing.Size(1517, 692);
+            panelContenedor.TabIndex = 38;
             // 
             // PanelInicio
             // 
-            this.PanelInicio.BackColor = System.Drawing.Color.Transparent;
-            this.PanelInicio.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.PanelInicio.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.PanelInicio.FlatAppearance.BorderSize = 0;
-            this.PanelInicio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.PanelInicio.Font = new System.Drawing.Font("Ananda", 90F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.PanelInicio.ForeColor = System.Drawing.Color.Transparent;
-            this.PanelInicio.Image = ((System.Drawing.Image)(resources.GetObject("PanelInicio.Image")));
-            this.PanelInicio.Location = new System.Drawing.Point(0, 0);
-            this.PanelInicio.Name = "PanelInicio";
-            this.PanelInicio.Size = new System.Drawing.Size(1300, 600);
-            this.PanelInicio.TabIndex = 5;
-            this.PanelInicio.Text = "iViaje";
-            this.PanelInicio.UseCompatibleTextRendering = true;
-            this.PanelInicio.UseVisualStyleBackColor = false;
+            PanelInicio.BackColor = System.Drawing.Color.Transparent;
+            PanelInicio.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            PanelInicio.Dock = System.Windows.Forms.DockStyle.Fill;
+            PanelInicio.FlatAppearance.BorderSize = 0;
+            PanelInicio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            PanelInicio.Font = new System.Drawing.Font("Ananda", 90F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 238);
+            PanelInicio.ForeColor = System.Drawing.Color.Transparent;
+            PanelInicio.Image = (System.Drawing.Image)resources.GetObject("PanelInicio.Image");
+            PanelInicio.Location = new System.Drawing.Point(0, 0);
+            PanelInicio.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            PanelInicio.Name = "PanelInicio";
+            PanelInicio.Size = new System.Drawing.Size(1517, 692);
+            PanelInicio.TabIndex = 5;
+            PanelInicio.Text = "iViaje";
+            PanelInicio.UseCompatibleTextRendering = true;
+            PanelInicio.UseVisualStyleBackColor = false;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1300, 650);
-            this.Controls.Add(this.panelContenedor);
-            this.Controls.Add(this.BarraTitulo);
-            this.Name = "Form1";
-            this.Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.iconcerrar)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconmaximizar)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconrestaurar)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconminimizar)).EndInit();
-            this.BarraTitulo.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.iViajeLogo)).EndInit();
-            this.panelContenedor.ResumeLayout(false);
-            this.ResumeLayout(false);
+            AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            ClientSize = new System.Drawing.Size(1517, 750);
+            Controls.Add(panelContenedor);
+            Controls.Add(BarraTitulo);
+            Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            Name = "Form1";
+            Text = "Form1";
+            ((System.ComponentModel.ISupportInitialize)iconcerrar).EndInit();
+            ((System.ComponentModel.ISupportInitialize)iconmaximizar).EndInit();
+            ((System.ComponentModel.ISupportInitialize)iconrestaurar).EndInit();
+            ((System.ComponentModel.ISupportInitialize)iconminimizar).EndInit();
+            BarraTitulo.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)iViajeLogo).EndInit();
+            panelContenedor.ResumeLayout(false);
+            ResumeLayout(false);
 
         }
 

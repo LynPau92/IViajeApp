@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace PROYECTO_FINAL
 {
-    public partial class PaqueteInternacionalGrupo: Form
+    public partial class PaqueteInternacionalGrupo : Form
     {
         public PaqueteInternacionalGrupo()
         {
@@ -39,6 +39,11 @@ namespace PROYECTO_FINAL
             ReservasClientes formularioReservar = new ReservasClientes();
             formularioReservar.Show();
             this.Close();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }

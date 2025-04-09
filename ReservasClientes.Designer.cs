@@ -392,6 +392,7 @@
             Controls.Add(panel9);
             Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             Name = "ReservasClientes";
+            StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             panel9.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)iconcerrar).EndInit();
             panelContenedor.ResumeLayout(false);

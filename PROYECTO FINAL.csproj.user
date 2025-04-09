@@ -37,6 +37,9 @@
     <Compile Update="Paquetes.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Reservas-1.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="ReservasClientes.cs">
       <SubType>Form</SubType>
     </Compile>
