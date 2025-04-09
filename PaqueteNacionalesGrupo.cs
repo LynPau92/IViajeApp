@@ -21,5 +21,10 @@ namespace PROYECTO_FINAL
         {
             this.Close();
         }
+
+        private void jkl_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

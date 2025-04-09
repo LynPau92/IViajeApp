@@ -34,14 +34,14 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.jkl = new System.Windows.Forms.Button();
             this.BarraTitulo.SuspendLayout();
             this.SuspendLayout();
             // 
             // BarraTitulo
             // 
             this.BarraTitulo.BackColor = System.Drawing.Color.White;
-            this.BarraTitulo.Controls.Add(this.button4);
+            this.BarraTitulo.Controls.Add(this.jkl);
             this.BarraTitulo.Controls.Add(this.button3);
             this.BarraTitulo.Controls.Add(this.Cantidad);
             this.BarraTitulo.Controls.Add(this.textBox1);
@@ -110,14 +110,15 @@
             this.button2.Text = "Reservar";
             this.button2.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // jkl
             // 
-            this.button4.Location = new System.Drawing.Point(532, 175);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 9;
-            this.button4.Text = "holaaaaaa";
-            this.button4.UseVisualStyleBackColor = true;
+            this.jkl.Location = new System.Drawing.Point(559, 172);
+            this.jkl.Name = "jkl";
+            this.jkl.Size = new System.Drawing.Size(75, 23);
+            this.jkl.TabIndex = 9;
+            this.jkl.Text = "pupa";
+            this.jkl.UseVisualStyleBackColor = true;
+            this.jkl.Click += new System.EventHandler(this.jkl_Click);
             // 
             // PaqueteNacionalesGrupo
             // 
@@ -142,6 +143,6 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button jkl;
     }
 }
