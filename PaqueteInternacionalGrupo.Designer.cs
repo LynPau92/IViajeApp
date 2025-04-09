@@ -117,10 +117,10 @@
             PaqIntGrupo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             PaqIntGrupo.Font = new System.Drawing.Font("Monotype Corsiva", 24F, System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, 0);
             PaqIntGrupo.ForeColor = System.Drawing.Color.White;
-            PaqIntGrupo.Location = new System.Drawing.Point(438, -2);
+            PaqIntGrupo.Location = new System.Drawing.Point(610, -2);
             PaqIntGrupo.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             PaqIntGrupo.Name = "PaqIntGrupo";
-            PaqIntGrupo.Size = new System.Drawing.Size(609, 54);
+            PaqIntGrupo.Size = new System.Drawing.Size(437, 54);
             PaqIntGrupo.TabIndex = 21;
             PaqIntGrupo.Text = "Paquetes internacionales (grupos) ";
             PaqIntGrupo.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -168,7 +168,7 @@
             button3.TabIndex = 62;
             button3.Text = "Reservar";
             button3.UseVisualStyleBackColor = false;
-            button3.Click += R1_Click_1;
+            button3.Click += R1_Click;
             // 
             // textBox7
             // 
@@ -254,7 +254,7 @@
             button1.TabIndex = 54;
             button1.Text = "Reservar";
             button1.UseVisualStyleBackColor = false;
-            button1.Click += R1_Click_1;
+            button1.Click += R1_Click;
             // 
             // label1
             // 
@@ -329,7 +329,7 @@
             button2.TabIndex = 54;
             button2.Text = "Reservar";
             button2.UseVisualStyleBackColor = false;
-            button2.Click += R1_Click_1;
+            button2.Click += R1_Click;
             // 
             // label13
             // 
@@ -393,7 +393,7 @@
             R4.TabIndex = 54;
             R4.Text = "Reservar";
             R4.UseVisualStyleBackColor = false;
-            R4.Click += R1_Click_1;
+            R4.Click += R1_Click;
             // 
             // label11
             // 
@@ -468,7 +468,7 @@
             R3.TabIndex = 54;
             R3.Text = "Reservar";
             R3.UseVisualStyleBackColor = false;
-            R3.Click += R1_Click_1;
+            R3.Click += R1_Click;
             // 
             // label9
             // 
@@ -543,7 +543,7 @@
             R2.TabIndex = 54;
             R2.Text = "Reservar";
             R2.UseVisualStyleBackColor = false;
-            R2.Click += R1_Click_1;
+            R2.Click += R1_Click;
             // 
             // label7
             // 
@@ -618,7 +618,7 @@
             R5.TabIndex = 54;
             R5.Text = "Reservar";
             R5.UseVisualStyleBackColor = false;
-            R5.Click += R1_Click_1;
+            R5.Click += R1_Click;
             // 
             // label4
             // 
@@ -693,7 +693,7 @@
             R1.TabIndex = 54;
             R1.Text = "Reservar";
             R1.UseVisualStyleBackColor = false;
-            R1.Click += R1_Click_1;
+            R1.Click += R1_Click;
             // 
             // label5
             // 
@@ -726,7 +726,7 @@
             Colombia.Font = new System.Drawing.Font("MS Reference Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
             Colombia.ForeColor = System.Drawing.Color.Teal;
             Colombia.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            Colombia.Location = new System.Drawing.Point(29, 6);
+            Colombia.Location = new System.Drawing.Point(47, 6);
             Colombia.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             Colombia.Name = "Colombia";
             Colombia.Size = new System.Drawing.Size(213, 16);
